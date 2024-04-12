@@ -17,7 +17,7 @@
     line-height: 26px;
     padding-bottom: 50px;
   }
-  
+
   .container {
     max-width: 700px;   
     background: #fff;
@@ -102,21 +102,26 @@
     .right {
       vertical-align: top;
       display: inline-block;
+      margin-right: 60px;
     }
     
     .left {
-      width: 60%; 
+      width: 40%; 
       border: 8px solid rgba(77, 77, 136, 0.5);
       padding: 8px;   
       border-radius: 3cm;
       border-right-width: 1cm;
+      color:#25316D;
+      background-color:#B1B2FF;
+      border-radius: 20px;
+      transition:  all 0.5s ease-in;
     }
     
     .right {
       tex-align: right;
       width: 39%; 
       border: 8px solid lightblue;
-      padding: 8px;   
+      padding: 8px; 
     }
     
     .name {
