@@ -39,10 +39,20 @@
     
     .first-name {
       font-weight: 700;
+      transition-duration: 1s;
+    }
+    .first-name:hover {
+      background-color: black;
+      color: white;
     }
     
     .last-name {
       font-weight: 300;
+      transition-duration: 1s;
+    }
+    .last-name:hover {
+      background-color: black;
+      color:white;
     }
     
     .contact-info {
@@ -106,21 +116,29 @@
     }
     
     .left {
-      width: 40%; 
+      width: 37%; 
       border: 8px solid rgba(22, 72, 114, 0.5);
       padding: 8px;   
       border-radius: 3cm;
       border-right-width: 1cm;
       color:#000000;
       background-color:#cccdd6;
-      transition:  all 0.5s ease-in;
+      transition-duration: 1s;
+    }
+    .left:hover {
+      width: 259px;
+      background-color: white;
     }
     
     .right {
       tex-align: right;
       width: 39%; 
       border: 8px solid lightblue;
-      padding: 8px; 
+      padding: 8px;
+      transition-duration: 1s;
+    }
+    .right:hover {
+      background-color: #cccdd6;
     }
     
     .name {
@@ -165,6 +183,7 @@
       }
       
     }
+    
   }
   
   
